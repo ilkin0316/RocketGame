@@ -1,5 +1,7 @@
 using RocketGame.Input;
+using RocketGame.Managers;
 using RocketGame.Movements;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -15,8 +17,10 @@ namespace RocketGame.Controller
         DefaultInput _input;
         Mover _mover;
         Rotator _rotator;
+        Fuel _fuel;
 
-        bool _isForceUp;
+        bool _canMove;
+        bool _canForceUp;
         float _leftRight;
 
         public float TurnSpeed => _turnSpeed;
@@ -28,17 +32,39 @@ namespace RocketGame.Controller
             _input = new DefaultInput();
             _mover = new Mover(this);
             _rotator = new Rotator(this);
+            _fuel = GetComponent<Fuel>();
+        }
+
+        private void Start()
+        {
+            _canMove = true;
+        }
+
+        private void OnEnable()
+        {
+            GameManager.Instance.OnGameOver += HandleOnEventTriggered;
+            GameManager.Instance.OnMissionSucced += HandleOnEventTriggered;
+        }
+
+        private void OnDisable()
+        {
+            GameManager.Instance.OnGameOver -= HandleOnEventTriggered;
+            GameManager.Instance.OnMissionSucced -= HandleOnEventTriggered;
+
         }
 
         private void Update()
         {
-           if(_input.IsForceUp)
+            if(!_canMove) return;
+            
+            if(_input.IsForceUp && !_fuel.IsEmpty)
             {
-                _isForceUp = true;
+                _canForceUp = true;
             }
             else
             {
-                _isForceUp = false;
+                _canForceUp = false;
+                _fuel.FuelIncrease(0.01f);  
             }
 
            _leftRight= _input.LeftRight;
@@ -47,12 +73,21 @@ namespace RocketGame.Controller
 
         private void FixedUpdate()
         {
-            if(_isForceUp )
+            if(_canForceUp )
             {
                 _mover.FixedTick();
+                _fuel.FuelDecrease(0.2f);
             }
 
             _rotator.FixedTick(_leftRight);
+        }
+
+        private void HandleOnEventTriggered()
+        {
+            _canMove= false;
+            _canForceUp= false;
+            _leftRight = 0f;
+            _fuel.FuelIncrease(0f);
         }
     }
 }
