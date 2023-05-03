@@ -15,7 +15,7 @@ namespace RocketGame.Controller
         {
             PlayerController player = other.collider.GetComponent<PlayerController>();
 
-            if (player == null)
+            if (player == null || !player.CanMove)
             {
                 return;
             }

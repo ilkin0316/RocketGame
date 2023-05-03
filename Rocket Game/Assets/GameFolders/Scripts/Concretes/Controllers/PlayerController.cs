@@ -22,9 +22,11 @@ namespace RocketGame.Controller
         bool _canMove;
         bool _canForceUp;
         float _leftRight;
+        internal bool canMove;
 
         public float TurnSpeed => _turnSpeed;
         public float Force => _force;
+        public bool CanMove => _canMove; 
       
 
         private void Awake()
