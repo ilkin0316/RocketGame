@@ -21,3 +21,4 @@ public class MoverWallController : WallController
         transform.position = offset - _startPosition;
     }
 }
+
