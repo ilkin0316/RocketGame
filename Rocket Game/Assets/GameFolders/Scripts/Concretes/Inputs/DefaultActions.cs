@@ -52,7 +52,7 @@ namespace RocketGame.Input
                 {
                     ""name"": """",
                     ""id"": ""b0fab39b-bc54-49ff-b516-f571e9c0bd80"",
-                    ""path"": ""<Mouse>/leftButton"",
+                    ""path"": ""<Touchscreen>/Press"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
