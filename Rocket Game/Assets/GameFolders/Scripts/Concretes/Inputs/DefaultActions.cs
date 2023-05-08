@@ -61,6 +61,17 @@ namespace RocketGame.Input
                     ""isPartOfComposite"": false
                 },
                 {
+                    ""name"": """",
+                    ""id"": ""ddcd631c-4a9f-4a00-ba0a-391615d917cd"",
+                    ""path"": ""<Mouse>/leftButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""ForceUp"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
                     ""name"": ""AD"",
                     ""id"": ""8342ed90-873d-4ea5-93ff-0ecad7690011"",
                     ""path"": ""1DAxis"",
@@ -74,9 +85,9 @@ namespace RocketGame.Input
                 {
                     ""name"": ""negative"",
                     ""id"": ""10a38dce-76f9-49dc-965c-c2d982b25346"",
-                    ""path"": ""<Keyboard>/a"",
+                    ""path"": ""<Touchscreen>/delta/left"",
                     ""interactions"": """",
-                    ""processors"": """",
+                    ""processors"": ""Scale"",
                     ""groups"": """",
                     ""action"": ""LeftRight"",
                     ""isComposite"": false,
@@ -85,9 +96,9 @@ namespace RocketGame.Input
                 {
                     ""name"": ""positive"",
                     ""id"": ""0eaf195b-5b95-422e-8fdd-716edaf5417d"",
-                    ""path"": ""<Keyboard>/d"",
+                    ""path"": ""<Touchscreen>/delta/right"",
                     ""interactions"": """",
-                    ""processors"": """",
+                    ""processors"": ""Scale"",
                     ""groups"": """",
                     ""action"": ""LeftRight"",
                     ""isComposite"": false,
