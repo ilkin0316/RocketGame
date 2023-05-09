@@ -74,7 +74,7 @@ namespace RocketGame.Input
                 {
                     ""name"": ""AD"",
                     ""id"": ""8342ed90-873d-4ea5-93ff-0ecad7690011"",
-                    ""path"": ""1DAxis"",
+                    ""path"": ""1DAxis(minValue=-0.2,maxValue=0.2)"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
