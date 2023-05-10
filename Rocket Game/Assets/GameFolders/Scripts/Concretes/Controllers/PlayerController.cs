@@ -66,7 +66,7 @@ namespace RocketGame.Controller
             else
             {
                 _canForceUp = false;
-                _fuel.FuelIncrease(0.01f);  
+                _fuel.FuelIncrease(0.5f);  
             }
 
            _leftRight= _input.LeftRight;
