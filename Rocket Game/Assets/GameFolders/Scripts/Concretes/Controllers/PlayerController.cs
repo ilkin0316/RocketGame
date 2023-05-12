@@ -12,7 +12,7 @@ namespace RocketGame.Controller
     public class PlayerController : MonoBehaviour
     {
         [SerializeField] float _turnSpeed = 10f;
-        [SerializeField] float _force = 55f;
+        [SerializeField] float _force = 55f;    
 
         DefaultInput _input;
         Mover _mover;
