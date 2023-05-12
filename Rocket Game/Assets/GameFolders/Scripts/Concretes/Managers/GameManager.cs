@@ -19,7 +19,7 @@ namespace RocketGame.Managers
             SingletonThisGameObject(this);
             
         }
-        ////////////////////
+        
         public void GameOver()
         {
             OnGameOver?.Invoke();
@@ -41,6 +41,8 @@ namespace RocketGame.Managers
             yield return SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + levelIndex);
             SoundManager.Instance.PlaySound(2);
         }
+
+
 
         public void LoadMenuScene()
         {

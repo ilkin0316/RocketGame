@@ -28,6 +28,8 @@ public class MoverWallController : WallController
 
 
 
+
+
         Vector3 offset = _direction * _factor ;
         transform.position = offset + _startPosition ;
     }
