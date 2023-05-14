@@ -1,4 +1,4 @@
-using RocketGame.Managers;
+﻿using RocketGame.Managers;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -43,7 +43,23 @@ namespace RocketGame.Movements
             }
             SoundManager.Instance.PlaySound(0);
         }
-       
+
+        void OnTriggerEnter(Collider other)
+        {
+            if (other.gameObject.CompareTag("Fuel"))
+            {
+                Fuel currentFuel = other.GetComponent<Fuel>();
+                if (currentFuel != null)
+                {
+                    currentFuel._currentFuel = currentFuel._maxFuel;
+                }
+            }
+        }
+
+
+
+
+
     }
 
 }
