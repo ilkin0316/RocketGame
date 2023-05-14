@@ -1,6 +1,4 @@
 ﻿using RocketGame.Managers;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace RocketGame.Movements
@@ -18,11 +16,21 @@ namespace RocketGame.Movements
         {
             _currentFuel = _maxFuel;
         }
-        
+
+        private void OnTriggerEnter(Collider other)
+        {
+            if (other.CompareTag("Fuel"))
+            {
+                _currentFuel += 1000f; // Yakıt miktarını artır
+                _currentFuel = Mathf.Min(_currentFuel, _maxFuel); // Yakıt miktarını maxFuel değerinden fazla olmayacak şekilde sınırla
+                Destroy(other.gameObject); // Yakıt objesini yok et
+            }
+        }
+
         public void FuelIncrease(float increase)
         {
             _currentFuel += increase;
-            _currentFuel = Mathf.Min(_currentFuel,_maxFuel);
+            _currentFuel = Mathf.Min(_currentFuel, _maxFuel);
 
             if (_particle.isPlaying)
             {
@@ -35,32 +43,14 @@ namespace RocketGame.Movements
         public void FuelDecrease(float decrease)
         {
             _currentFuel -= decrease;
-            _currentFuel = Mathf.Max(_currentFuel,0f);
+            _currentFuel = Mathf.Max(_currentFuel, 0f);
 
             if (_particle.isStopped)
             {
                 _particle.Play();
             }
+
             SoundManager.Instance.PlaySound(0);
         }
-
-        void OnTriggerEnter(Collider other)
-        {
-            if (other.gameObject.CompareTag("Fuel"))
-            {
-                Fuel currentFuel = other.GetComponent<Fuel>();
-                if (currentFuel != null)
-                {
-                    currentFuel._currentFuel = currentFuel._maxFuel;
-                }
-            }
-        }
-
-
-
-
-
     }
-
 }
-
