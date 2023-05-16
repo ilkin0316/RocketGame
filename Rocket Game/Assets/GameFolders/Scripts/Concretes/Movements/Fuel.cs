@@ -1,6 +1,6 @@
 ﻿using RocketGame.Managers;
 using UnityEngine;
-
+/////////////////
 namespace RocketGame.Movements
 {
     public class Fuel : MonoBehaviour
@@ -26,7 +26,7 @@ namespace RocketGame.Movements
                 Destroy(other.gameObject); // Yakıt objesini yok et
             }
         }
-
+        
         public void FuelIncrease(float increase)
         {
             _currentFuel += increase;
