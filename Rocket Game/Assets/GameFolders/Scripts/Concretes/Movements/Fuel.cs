@@ -1,6 +1,6 @@
 ﻿using RocketGame.Managers;
 using UnityEngine;
-/////////////////
+
 namespace RocketGame.Movements
 {
     public class Fuel : MonoBehaviour
