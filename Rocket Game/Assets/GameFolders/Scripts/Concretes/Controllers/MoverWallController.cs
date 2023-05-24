@@ -12,7 +12,7 @@ public class MoverWallController : WallController
 
     float _factor;
 
-
+    //djskdjskdsdsdsjdsmdsdksjdksdjsdjskdjksjdksdjksjdsdsmdsd
     private const float Full_Circle = Mathf.PI * 2f;
 
     private void Awake()
