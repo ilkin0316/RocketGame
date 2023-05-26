@@ -83,7 +83,7 @@ namespace RocketGame.Controller
 
             _rotator.FixedTick(_leftRight);
         }
-        
+        //dfddskfmldkfsddskfdkfjkdfkdj
         private void HandleOnEventTriggered()
         {
             _canMove= false;
