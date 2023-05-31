@@ -6293,6 +6293,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 6412009783806958814, guid: fd90f2919f77ca44dbe966c8688c44ab, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300002, guid: 7ab74e659e1f0a34d9cfec21c478fc12, type: 3}
     - target: {fileID: 8174456808074457895, guid: fd90f2919f77ca44dbe966c8688c44ab, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -8593,11 +8597,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2855322517849272299, guid: e600c847afc95f143a4caa46ab2b7195, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -86.03148
+      value: 0.06852018
       objectReference: {fileID: 0}
     - target: {fileID: 2855322517849272299, guid: e600c847afc95f143a4caa46ab2b7195, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5999253
+      value: 3.5000749
       objectReference: {fileID: 0}
     - target: {fileID: 2855322517849272299, guid: e600c847afc95f143a4caa46ab2b7195, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8609,11 +8613,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3010307635574222109, guid: e600c847afc95f143a4caa46ab2b7195, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -86.03148
+      value: 0.06852018
       objectReference: {fileID: 0}
     - target: {fileID: 3010307635574222109, guid: e600c847afc95f143a4caa46ab2b7195, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5999253
+      value: 3.5000749
       objectReference: {fileID: 0}
     - target: {fileID: 3010307635574222109, guid: e600c847afc95f143a4caa46ab2b7195, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8859,11 +8863,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5290555682827156709, guid: 7064c40bfcbcadd4da83bb9cb053d495, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -86.1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5290555682827156709, guid: 7064c40bfcbcadd4da83bb9cb053d495, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.7
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 5290555682827156709, guid: 7064c40bfcbcadd4da83bb9cb053d495, type: 3}
       propertyPath: m_LocalPosition.z
