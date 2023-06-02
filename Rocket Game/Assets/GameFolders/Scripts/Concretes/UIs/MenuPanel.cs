@@ -12,6 +12,11 @@ namespace RocketGame.UIs
             GameManager.Instance.LoadLevelScene(1);
         }
 
+        public void BackClicked()
+        {
+            GameManager.Instance.LoadLevelScene(-1);
+        }
+
         public void ExitClicked()
         {
             GameManager.Instance.Exit();
