@@ -954,12 +954,12 @@ Transform:
   - {fileID: 25365512}
   - {fileID: 164487790}
   - {fileID: 1108568955}
+  - {fileID: 77908931}
   - {fileID: 1133083131}
   - {fileID: 1937185858}
-  - {fileID: 77908931}
-  - {fileID: 762959979}
   - {fileID: 118412740}
   - {fileID: 1560357452}
+  - {fileID: 762959979}
   m_Father: {fileID: 1267070490}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1218,6 +1218,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1196208110, guid: fd90f2919f77ca44dbe966c8688c44ab, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1196208110, guid: fd90f2919f77ca44dbe966c8688c44ab, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1196208110, guid: fd90f2919f77ca44dbe966c8688c44ab, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1616611193}
+    - target: {fileID: 1196208110, guid: fd90f2919f77ca44dbe966c8688c44ab, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1196208110, guid: fd90f2919f77ca44dbe966c8688c44ab, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: level16Finish
+      objectReference: {fileID: 0}
+    - target: {fileID: 1196208110, guid: fd90f2919f77ca44dbe966c8688c44ab, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: RocketGame.UIs.WinConditionObject, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1196208110, guid: fd90f2919f77ca44dbe966c8688c44ab, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1657545888, guid: fd90f2919f77ca44dbe966c8688c44ab, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -1332,6 +1360,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd90f2919f77ca44dbe966c8688c44ab, type: 3}
+--- !u!114 &1616611193 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7259923032029600479, guid: fd90f2919f77ca44dbe966c8688c44ab, type: 3}
+  m_PrefabInstance: {fileID: 1616611192}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebe60b878cd03c146a2649b3884d6a12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1780932511
 PrefabInstance:
   m_ObjectHideFlags: 0
