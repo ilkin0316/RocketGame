@@ -277,19 +277,19 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 199060333}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 396399981}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: levelSelect
+        m_MethodName: LoadLevel
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 12
+          m_IntArgument: 13
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -452,19 +452,19 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 292043756}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 396399981}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: levelSelect
+        m_MethodName: LoadLevel
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 18
+          m_IntArgument: 19
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -712,19 +712,19 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 382204640}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 396399981}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: levelSelect
+        m_MethodName: LoadLevel
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 5
+          m_IntArgument: 6
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -881,26 +881,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4eb7f8c3be1d6334ea7c7f9c1bdcba6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level1_button: {fileID: 901200256}
-  level2_button: {fileID: 825602579}
-  level3_button: {fileID: 856644559}
-  level4_button: {fileID: 1795264492}
-  level5_button: {fileID: 382204639}
-  level6_button: {fileID: 1050090764}
-  level7_button: {fileID: 1043128154}
-  level8_button: {fileID: 798639157}
-  level9_button: {fileID: 1333584015}
-  level10_button: {fileID: 1703716603}
-  level11_button: {fileID: 1152033203}
-  level12_button: {fileID: 199060332}
-  level13_button: {fileID: 1335670999}
-  level14_button: {fileID: 738304215}
-  level15_button: {fileID: 2087091141}
-  level16_button: {fileID: 717080341}
-  level17_button: {fileID: 1277557605}
-  level18_button: {fileID: 292043755}
-  level19_button: {fileID: 929836085}
-  level20_button: {fileID: 1600598849}
+  lvlButtons:
+  - {fileID: 901200256}
+  - {fileID: 825602579}
+  - {fileID: 856644559}
+  - {fileID: 1795264492}
+  - {fileID: 382204639}
+  - {fileID: 1050090764}
+  - {fileID: 1043128154}
+  - {fileID: 798639157}
+  - {fileID: 1333584015}
+  - {fileID: 1703716603}
+  - {fileID: 1152033203}
+  - {fileID: 199060332}
+  - {fileID: 1335670999}
+  - {fileID: 738304215}
+  - {fileID: 2087091141}
+  - {fileID: 717080341}
+  - {fileID: 1277557605}
+  - {fileID: 292043755}
+  - {fileID: 929836085}
+  - {fileID: 1600598849}
 --- !u!1 &717080339
 GameObject:
   m_ObjectHideFlags: 0
@@ -979,19 +980,19 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 717080342}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 396399981}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: levelSelect
+        m_MethodName: LoadLevel
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 16
+          m_IntArgument: 17
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1112,19 +1113,19 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 738304216}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 396399981}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: levelSelect
+        m_MethodName: LoadLevel
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 14
+          m_IntArgument: 15
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1302,19 +1303,19 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 798639158}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 396399981}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: levelSelect
+        m_MethodName: LoadLevel
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 8
+          m_IntArgument: 9
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1435,19 +1436,19 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 825602580}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 396399981}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: levelSelect
+        m_MethodName: LoadLevel
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1568,19 +1569,19 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 856644560}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 396399981}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: levelSelect
+        m_MethodName: LoadLevel
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 3
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1708,12 +1709,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 396399981}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: levelSelect
+        m_MethodName: LoadLevel
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1834,19 +1835,19 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 929836086}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 396399981}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: levelSelect
+        m_MethodName: LoadLevel
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 19
+          m_IntArgument: 20
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1967,19 +1968,19 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 1043128155}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 396399981}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: levelSelect
+        m_MethodName: LoadLevel
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 7
+          m_IntArgument: 8
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2100,19 +2101,19 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 1050090765}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 396399981}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: levelSelect
+        m_MethodName: LoadLevel
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 6
+          m_IntArgument: 7
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2233,19 +2234,19 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 1152033204}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 396399981}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: levelSelect
+        m_MethodName: LoadLevel
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 11
+          m_IntArgument: 12
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2366,19 +2367,19 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 1277557606}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 396399981}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: levelSelect
+        m_MethodName: LoadLevel
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 17
+          m_IntArgument: 18
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2499,19 +2500,19 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 1333584016}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 396399981}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: levelSelect
+        m_MethodName: LoadLevel
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 9
+          m_IntArgument: 10
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2632,19 +2633,19 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 1335671000}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 396399981}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: levelSelect
+        m_MethodName: LoadLevel
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 13
+          m_IntArgument: 14
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2874,19 +2875,19 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 1600598850}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 396399981}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: levelSelect
+        m_MethodName: LoadLevel
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 20
+          m_IntArgument: 21
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3007,19 +3008,19 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 1703716604}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 396399981}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: levelSelect
+        m_MethodName: LoadLevel
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 10
+          m_IntArgument: 11
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3201,19 +3202,19 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 1795264493}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 396399981}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: levelSelect
+        m_MethodName: LoadLevel
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 4
+          m_IntArgument: 5
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3537,19 +3538,19 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 2087091142}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 396399981}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: levelSelect
+        m_MethodName: LoadLevel
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 15
+          m_IntArgument: 16
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
