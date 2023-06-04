@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
+
 
 namespace RocketGame.Managers
 {
@@ -14,7 +14,7 @@ namespace RocketGame.Managers
 
         public event System.Action OnGameOver;
         public event System.Action OnMissionSucced;
-        public Button[] lvlButtons;
+       
 
         private void Awake()
         {
@@ -22,18 +22,7 @@ namespace RocketGame.Managers
             
         }
 
-        private void Start()
-        {
-            int levelAt = PlayerPrefs.GetInt("levelAt", 2);
-
-            for (int i = 0; i < lvlButtons.Length; i++)
-            {
-                if (i + 2 > levelAt)
-                {
-                    lvlButtons[i].interactable = false;
-                }
-            }
-        }
+        
 
         public void GameOver()
         {
