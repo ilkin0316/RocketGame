@@ -136,7 +136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3499115390598606770, guid: 507be5ae76bd31846a28042872fdf341, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3499115390598606771, guid: 507be5ae76bd31846a28042872fdf341, type: 3}
       propertyPath: m_RootOrder
@@ -944,7 +944,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 8511754762133058107}
         m_TargetAssemblyTypeName: SlimUI.ModernMenu.UIMenuManager, Assembly-CSharp
-        m_MethodName: Position3
+        m_MethodName: ExtrasMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -23161,7 +23161,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!114 &8511691825849275749
 MonoBehaviour:
   m_ObjectHideFlags: 0
