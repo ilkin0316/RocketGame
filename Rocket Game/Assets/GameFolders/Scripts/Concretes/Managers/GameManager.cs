@@ -1,4 +1,4 @@
-using RocketGame.Abstracts.Utilities;
+﻿using RocketGame.Abstracts.Utilities;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -19,10 +19,11 @@ namespace RocketGame.Managers
         private void Awake()
         {
             SingletonThisGameObject(this);
-            
+            DontDestroyOnLoad(gameObject);
+
         }
 
-        
+
 
         public void GameOver()
         {
@@ -64,8 +65,16 @@ namespace RocketGame.Managers
            
             SceneManager.LoadScene("Level's Scene");
         }
+        public void BackClicked()
+        {
+
+            // Menu sahnesini yükle
+            SceneManager.LoadScene("Menu");
+
+        }
         public void Exit()
         {
+
             Application.Quit();
         }
     }
