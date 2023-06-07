@@ -15,15 +15,14 @@ namespace RocketGame.Managers
         public event System.Action OnGameOver;
         public event System.Action OnMissionSucced;
        
+       
 
         private void Awake()
         {
             SingletonThisGameObject(this);
-            DontDestroyOnLoad(gameObject);
-
         }
 
-
+        
 
         public void GameOver()
         {
@@ -74,7 +73,6 @@ namespace RocketGame.Managers
         }
         public void Exit()
         {
-
             Application.Quit();
         }
     }
