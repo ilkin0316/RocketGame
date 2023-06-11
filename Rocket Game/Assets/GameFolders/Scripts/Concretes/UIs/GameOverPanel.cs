@@ -13,7 +13,7 @@ namespace RocketGame.UIs
         }
 
         public void NoClicked()
-        {
+        {//rklerljgt
             GameManager.Instance.LoadMenuScene();
         }
     }
