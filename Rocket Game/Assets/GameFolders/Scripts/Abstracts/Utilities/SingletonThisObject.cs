@@ -18,6 +18,7 @@ namespace RocketGame.Abstracts.Utilities
             else
             {
                 Destroy(this.gameObject);
+                //dskjfhdsjgk
             }
         }
     }

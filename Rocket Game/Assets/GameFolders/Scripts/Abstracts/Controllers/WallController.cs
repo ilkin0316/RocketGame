@@ -17,6 +17,7 @@ namespace RocketGame.Abstracts.Controller
             if(player !=null && player.CanMove)
             {
                 GameManager.Instance.GameOver();
+                //dfkldsfkjDHF
             }
         }
     }
