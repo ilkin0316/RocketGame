@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.031538025, g: 0.00714341, b: 0.0027734132, a: 1}
+  m_IndirectSpecularColor: {r: 0.031562313, g: 0.007171641, b: 0.0027856731, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -136,7 +136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3499115390598606770, guid: 507be5ae76bd31846a28042872fdf341, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3499115390598606771, guid: 507be5ae76bd31846a28042872fdf341, type: 3}
       propertyPath: m_RootOrder
@@ -2707,7 +2707,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4645826380429739687, guid: c109b39b0c79e9d47920aa7a86406aa6, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7293702173997703754, guid: c109b39b0c79e9d47920aa7a86406aa6, type: 3}
       propertyPath: m_Volume
@@ -12139,7 +12139,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 8632640756089698012}
-        m_TargetAssemblyTypeName: RocketGame.Managers.GameManager, Assembly-CSharp
+        m_TargetAssemblyTypeName: RocketGame.UIs.MenuPanel, Assembly-CSharp
         m_MethodName: StartClicked
         m_Mode: 1
         m_Arguments:
@@ -28435,7 +28435,6 @@ GameObject:
   - component: {fileID: 8507960942960081481}
   - component: {fileID: 8507897465405283243}
   - component: {fileID: 8511224427861242831}
-  - component: {fileID: 8614274558872471398}
   m_Layer: 5
   m_Name: Canv_Options
   m_TagString: Untagged
@@ -28443,18 +28442,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &8614274558872471398
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8614274558872471397}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75606656494528c4c9706672c67ec4ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &8614285802633281617
 GameObject:
   m_ObjectHideFlags: 0
@@ -28761,7 +28748,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &8614325088712235292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33590,7 +33577,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8614889786772376285}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75606656494528c4c9706672c67ec4ff, type: 3}
+  m_Script: {fileID: 11500000, guid: 0d5d6991218927c45aa2a28ca89e868c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!23 &8635659156316443795
@@ -37412,7 +37399,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5136117907727816999, guid: 6129a31bfe36b414ab629352253b44f2, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7435840872081684457, guid: 6129a31bfe36b414ab629352253b44f2, type: 3}
       propertyPath: m_RootOrder

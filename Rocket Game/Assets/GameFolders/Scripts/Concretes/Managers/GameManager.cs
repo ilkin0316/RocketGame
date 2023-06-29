@@ -59,18 +59,7 @@ namespace RocketGame.Managers
             yield return SceneManager.LoadSceneAsync("Menu");
             SoundManager.Instance.PlaySound(1);
         }
-        public void StartClicked()
-        {
-           
-            SceneManager.LoadScene("Level's Scene");
-        }
-        public void BackClicked()
-        {
-
-            // Menu sahnesini yükle
-            SceneManager.LoadScene("Menu");
-
-        }
+       
         public void Exit()
         {
             Application.Quit();
