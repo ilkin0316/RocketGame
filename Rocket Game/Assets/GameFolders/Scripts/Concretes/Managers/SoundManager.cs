@@ -20,6 +20,7 @@ namespace RocketGame.Managers
         {
             if (!_audioSource[index].isPlaying)
             {
+
                 _audioSource[index].Play();
             }
         }

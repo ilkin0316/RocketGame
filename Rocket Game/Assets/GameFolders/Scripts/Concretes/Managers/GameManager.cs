@@ -55,9 +55,11 @@ namespace RocketGame.Managers
 
         private IEnumerator LoadMenuSceneAsync()
         {
+            //SoundManager.Instance.StopSound(0);
             SoundManager.Instance.StopSound(2);
+            //SoundManager.Instance.StopSound(2);
             yield return SceneManager.LoadSceneAsync("Menu");
-            SoundManager.Instance.PlaySound(1);
+           
         }
        
         public void Exit()
