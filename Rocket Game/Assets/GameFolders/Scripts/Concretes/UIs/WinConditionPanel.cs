@@ -10,6 +10,7 @@ namespace RocketGame.UIs
         public void YesClicked()
         {
             GameManager.Instance.LoadLevelScene(1);
+            
         }
     }
 }

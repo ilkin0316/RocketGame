@@ -20,6 +20,7 @@ namespace RocketGame.UIs
             if(currentLevel>= PlayerPrefs.GetInt("levelUnlocked"))
             {
                 PlayerPrefs.SetInt("levelUnlocked", currentLevel + 1);
+                
             }
         }
         private void Awake()
@@ -27,6 +28,7 @@ namespace RocketGame.UIs
             if (_winConditionPanel.activeSelf)
             {
                 _winConditionPanel.SetActive(false);
+                
             }
         }
 
@@ -47,6 +49,7 @@ namespace RocketGame.UIs
             if (!_winConditionPanel.activeSelf)
             {
                 _winConditionPanel.SetActive(true);
+                
             }
         }
 

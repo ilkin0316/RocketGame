@@ -35,6 +35,7 @@ namespace RocketGame.UIs
             if (!_gameOverPanel.activeSelf)
             {
                 _gameOverPanel.SetActive( true );
+                Time.timeScale = 0;
             }
         }
 

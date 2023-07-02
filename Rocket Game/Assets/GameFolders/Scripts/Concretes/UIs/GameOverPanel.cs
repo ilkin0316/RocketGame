@@ -10,11 +10,13 @@ namespace RocketGame.UIs
         public void YesClicked()
         {
             GameManager.Instance.LoadLevelScene();
+            Time.timeScale = 1;
         }
 
         public void NoClicked()
         {
             GameManager.Instance.LoadMenuScene();
+            Time.timeScale = 1;
         }
     }
 }
