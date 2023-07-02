@@ -601,6 +601,7 @@ Transform:
   m_Father: {fileID: 1267070490}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &1506014868
 GameObject:
   m_ObjectHideFlags: 0
@@ -782,6 +783,8 @@ RectTransform:
   m_AnchoredPosition: {x: 22.145485, y: 6.498923}
   m_SizeDelta: {x: 586, y: 203}
   m_Pivot: {x: 0.5, y: 0.5}
+=======
+>>>>>>> 0d5b074fc9bdef9970f749bb98eca66872c8d75e
 --- !u!1 &1540944724
 GameObject:
   m_ObjectHideFlags: 0
